@@ -16,12 +16,17 @@
 	margin-top: 10%;
 	align-items: center;
 	border-radius: 10px;
-	box-shadow: 0.4px 8px 0 rgba(0, 0, 0, 0.2), 0.6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 5px solid white;
+}
+label, span{
+	font-size: 10px;
 }
 .left{width:57%;
 	height: 100%;
 	float: left;
 	background-color: lightpink;
+	
 
 }
 .left img{
@@ -29,8 +34,47 @@
 }
 .right{
 	float: right;
+	margin: 5px;
 	width: 40%;
 	height: 100%;
 	background-color: white;
+}
+.left h2{ color:maroon; }
+.left p{
+	color:maroon;
+}
+.right .right-input {
+    padding: 5px;
+    width: 95%;
+}
+button{
+	    background-color: maroon;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 9px;
+    width: 100%;
+}
+#main{
+	margin-top: 70px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 10px;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: arial;
+	font-size: 13px;
+}
+.remember{
+	display: inline-block;
+	align-items: ;
 }
 
